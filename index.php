@@ -31,7 +31,7 @@ echo "Student 1: " . $students[1]->name;
 
 $birthday = "1981-12-12";
 
-$fecha = date("Y-m-d H:");
+$fecha = date("Y-m-d H:i:s");
 
 echo $fecha;
 
