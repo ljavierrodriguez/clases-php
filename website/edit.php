@@ -1,11 +1,12 @@
 <?php include './header.php' ?>
-<?php include './buscar_product.php' ?>
+<?php include './buscar_product.php' ?> <!-- Datos del producto a modificar -->
 <div class="container">
     <div class="row">
         <div class="col-md-12">
             <h4>Edit Product</h4>
         </div>
         <div class="col-md-12">
+            <!-- Formulario para Editar el Producto -->
             <form action="./edit_product.php" method="post">
 
                 <input type="hidden" name="id" value="<?php echo $row[0] ?>">

@@ -1,7 +1,7 @@
 <!-- El archivo de encabezado de la pagina web (css)-->
 <?php include './header.php' ?>
 
-<!-- Contenido de Mi pagina Principal -->
+<!-- Contenido Pagina Principal -->
 <div class="container">
     <div class="row">
         <div class="col-md-12 pb-3">
@@ -34,6 +34,7 @@
         </div>
     </div>
 </div>
+<!-- Fin del Contenido Pagina Principal -->
 
 <!-- El archivo de pie de la pagina web (scripts) -->
 <?php include './footer.php' ?>

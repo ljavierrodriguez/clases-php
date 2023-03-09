@@ -1,11 +1,13 @@
 <?php include './header.php' ?>
 
+<!-- Contenido Pagina Crear Producto -->
 <div class="container">
     <div class="row">
         <div class="col-md-12">
             <h4>Add Product</h4>
         </div>
         <div class="col-md-12">
+            <!-- Formulario para Agregar Producto -->
             <form action="./crear_product.php" method="post">
 
                 <div class="form-group mb-3">
@@ -22,7 +24,8 @@
             </form>
         </div>
         <div class="col-md-12">
-        <a href="./products.php" class="btn btn-warning btn-sm my-2">Regresar</a>
+            <!-- Enlace para regresar al listado de productos -->
+            <a href="./products.php" class="btn btn-warning btn-sm my-2">Regresar</a>
         </div>
     </div>
 </div>
