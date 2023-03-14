@@ -16,3 +16,4 @@ CREATE TABLE `clientsdb`.`contacts` (
 
 INSERT INTO `clientsdb`.`contacts` (name, email, phone) VALUES ('Fernando Cortes', 'fcortes1@gmail.com', '5555 55 55');
 INSERT INTO `clientsdb`.`contacts` (name, email, phone) VALUES ('Luis J. Rodriguez', 'ljavierrodriguez@gmail.com', '5555 55 00');
+INSERT INTO `clientsdb`.`contacts` (name, email, phone) VALUES ('Luis J. Rodriguez', 'ljavierrodriguez@gmail.com', '5555 55 00');
