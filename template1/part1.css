@@ -1,0 +1,77 @@
+/* CSS Document */
+/* 
+
+selector {
+    propiedad: valor;
+}
+
+*/
+
+/* Selector ID */
+#header {
+    color: blueviolet;
+    font-size: 40px;
+}
+
+
+/* Selector Clase */
+.menu {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.box {
+    width: 200px;
+    height: 50px;
+    background-color: blueviolet;
+    text-align: center;
+    margin: 10px;
+    border: 3px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline;
+}
+
+/* Selector de Elemento o Tag o Etiqueta */
+/* table {
+    border: 0;
+}
+
+tr {
+    border: 0;
+}
+
+td {
+    border: 0;
+}
+
+th {
+    border: 0;
+} */
+
+table, tr, th, td {
+    border: 0;
+}
+
+h1, h2, h3 {
+
+}
+
+h4, h5, h6 {
+
+}
+/* Selector Descendiente */
+ul.menu li {
+    text-transform: uppercase;
+    color: brown;
+}
+
+/* Selector Hijo */
+ul > li {
+    text-transform: uppercase;
+    color: cadetblue;
+}
+
+.nav-item {
+    color: red !important;
+}
