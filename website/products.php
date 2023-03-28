@@ -1,4 +1,7 @@
 <?php require_once('./listar_products.php') ?> <!-- Traemos toda la informacion de los productos existentes o filtrados por el buscador -->
+
+<?php //require_once('./report_graphics/report1.php') ?>
+
 <?php include './header.php' ?>
 
 <!-- Contenido Pagina Productos -->
@@ -70,6 +73,21 @@
                 </table>
                 <!-- Enlace para agregar producto -->
                 <a href="./create.php" class="btn btn-success btn-sm my-2">Add Product</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="graphic_1">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="graphic_1">
+                <canvas id="myChart2"></canvas>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="graphic_1">
+                <canvas id="myChart3"></canvas>
             </div>
         </div>
     </div>
