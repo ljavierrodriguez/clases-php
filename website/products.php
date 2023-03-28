@@ -1,6 +1,7 @@
 <?php require_once('./listar_products.php') ?> <!-- Traemos toda la informacion de los productos existentes o filtrados por el buscador -->
 
 <?php //require_once('./report_graphics/report1.php') ?>
+<?php //require_once('./report_graphics/report4.php') ?>
 
 <?php include './header.php' ?>
 
@@ -85,9 +86,14 @@
                 <canvas id="myChart2"></canvas>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-8 offset-md-2">
             <div class="graphic_1">
                 <canvas id="myChart3"></canvas>
+            </div>
+        </div>
+        <div class="col-md-8 offset-md-2">
+            <div class="graphic_1">
+                <canvas id="myChart4"></canvas>
             </div>
         </div>
     </div>

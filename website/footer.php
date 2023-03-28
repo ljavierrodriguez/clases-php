@@ -5,6 +5,7 @@
 <script src="./report_graphics/report1.php"></script>
 <script src="./report_graphics/report2.php"></script>
 <script src="./report_graphics/report3.php"></script>
+<script src="./report_graphics/report4.php"></script>
 </body>
 
 </html>
