@@ -15,4 +15,6 @@
 
 <body>
 
-<?php include './navbar.php' ?>
+<?php if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true): ?>
+    <?php include './navbar.php' ?>
+<?php endif; ?>

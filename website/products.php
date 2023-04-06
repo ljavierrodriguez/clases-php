@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true){
+    header('location: login.php');
+    exit;
+}
+
+?>
+
 <?php require_once('./listar_products.php') ?> <!-- Traemos toda la informacion de los productos existentes o filtrados por el buscador -->
 
 <?php //require_once('./report_graphics/report1.php') ?>
